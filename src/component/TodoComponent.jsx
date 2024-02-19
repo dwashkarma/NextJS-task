@@ -24,7 +24,10 @@ function TodoComponent({ id, todo, completed }) {
           </Typography>
         </CardContent>
         <CardActions>
-          <ButtonComponent handleClick={() => handleClick(id)} />
+          <ButtonComponent
+            label={"Visit"}
+            handleClick={() => handleClick(id)}
+          />
         </CardActions>
       </Card>
     </div>
